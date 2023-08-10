@@ -54,3 +54,14 @@
     padding: 1em;
     background-color: var(--branco);
 }
+.titulo__cabecalho{
+    display: none;
+}
+    
+@media screen and (min-width: 1080px){
+        .titulo__cabecalho{
+            font-size: 18px;
+            display: block;
+        }
+}
+    
