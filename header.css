@@ -57,11 +57,15 @@
 .titulo__cabecalho{
     display: none;
 }
-    
+
 @media screen and (min-width: 1080px){
         .titulo__cabecalho{
             font-size: 18px;
             display: block;
         }
 }
-    
+@media only screen and (max-width: 500px)  {
+    img {
+      width: 100%;
+    }
+}
